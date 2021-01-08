@@ -294,7 +294,7 @@ PODS:
   - React-jsinspector (0.63.3)
   - react-native-twilio-phone (1.3.2):
     - React
-    - TwilioVoice (~> 6.0)
+    - TwilioVoice (~> 6.1)
   - React-RCTActionSheet (0.63.3):
     - React-Core/RCTActionSheetHeaders (= 0.63.3)
   - React-RCTAnimation (0.63.3):
@@ -366,7 +366,7 @@ PODS:
     - RNFBApp
   - RNVoipPushNotification (3.0.0):
     - React-Core
-  - TwilioVoice (6.0.2)
+  - TwilioVoice (6.1.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
