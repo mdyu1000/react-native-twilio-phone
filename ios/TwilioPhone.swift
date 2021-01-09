@@ -1,4 +1,4 @@
-import TwilioVoiceSDK
+import TwilioVoice
 
 @objc(TwilioPhone)
 class TwilioPhone: RCTEventEmitter {
@@ -267,7 +267,6 @@ class TwilioPhone: RCTEventEmitter {
 }
 
 // MARK: - TVOCallDelegate
-
 extension TwilioPhone: CallDelegate {
     func callDidStartRinging(call: Call) {
         NSLog("[TwilioPhone] Call did start ringing")
@@ -344,7 +343,6 @@ extension TwilioPhone: CallDelegate {
 }
 
 // MARK: - TVONotificationDelegate
-
 extension TwilioPhone: NotificationDelegate {
     func callInviteReceived(callInvite: CallInvite) {
         NSLog("[TwilioPhone] Call invite received")
